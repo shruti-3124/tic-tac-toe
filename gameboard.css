@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background-color: #53B3CB;
+}
+.container{
+
+height: 70vh;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.board{
+height: 60vmin;
+width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+gap: 8px ;
+align-items: center;
+text-align: center;
+justify-content: center
+}
+.boxes{
+height:20vmin ;
+width: 18vmin;
+border-radius: 8px;
+cursor: pointer;
+font-size: 50px;
+background-color: #F9C22E;
+color: #0C090D;
+}
